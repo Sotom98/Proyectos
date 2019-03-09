@@ -1,0 +1,10 @@
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.exe.config
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.exe
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.pdb
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csprojAssemblyReference.cache
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.exe
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.pdb
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\Ejercicios.dll
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\Ejercicios.pdb
+C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csproj.CopyComplete

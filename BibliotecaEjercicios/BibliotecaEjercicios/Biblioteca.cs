@@ -120,6 +120,18 @@ namespace BibliotecaEjercicios {
                     Ejercicio26 ej26 = new Ejercicio26();
                     ej26.Cifras();
                     break;
+                case 27:
+                    Ejercicio27 ej27 = new Ejercicio27();
+                    ej27.Pagar();
+                    break;
+                case 28:
+                    Ejercicio28 ej28 = new Ejercicio28();
+                    ej28.Par();
+                    break;
+                case 29:
+                    Ejercicio29 ej29 = new Ejercicio29();
+                    ej29.Temper();
+                    break;
                 default:
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");

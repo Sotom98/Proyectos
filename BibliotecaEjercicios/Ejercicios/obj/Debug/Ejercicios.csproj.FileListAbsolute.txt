@@ -4,3 +4,9 @@ C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\Bib
 C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.dll
 C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.pdb
 C:\Users\oscar\Desktop\Ánime y otros\Programación\C#\Visual Studio\Tarea 1\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csprojAssemblyReference.cache
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\bin\Debug\Ejercicios.dll
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csprojAssemblyReference.cache
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.dll
+C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.pdb

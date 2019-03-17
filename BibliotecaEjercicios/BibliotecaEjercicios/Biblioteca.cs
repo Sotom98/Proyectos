@@ -139,6 +139,46 @@ namespace BibliotecaEjercicios {
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");
                     break;
+                case 41:
+                    Ejercicio41 ej41 = new Ejercicio41();
+                    ej41.ejer41();
+                    break;
+                case 42:
+                    Ejercicio42 ej42 = new Ejercicio42();
+                    ej42.ejer42();
+                    break;
+                case 43:
+                    Ejercicio43 ej43 = new Ejercicio43();
+                    ej43.ejer43();
+                    break;
+                case 44:
+                    Ejercicio44 ej44 = new Ejercicio44();
+                    ej44.ejer44();
+                    break;
+                case 45:
+                    Ejercicio45 ej45 = new Ejercicio45();
+                    ej45.ejer45();
+                    break;
+                case 46:
+                    Ejercicio46 ej46 = new Ejercicio46();
+                    ej46.ejer46();
+                    break;
+                case 47:
+                    Ejercicio47 ej47 = new Ejercicio47();
+                    ej47.ejer47();
+                    break;
+                case 48:
+                    Ejercicio48 ej48 = new Ejercicio48();
+                    ej48.ejer48();
+                    break;
+                case 49:
+                    Ejercicio49 ej49 = new Ejercicio49();
+                    ej49.ejer49();
+                    break;
+                case 50:
+                    Ejercicio50 ej50 = new Ejercicio50();
+                    ej50.ejer50();
+                    break;
                 case 51:
                     Ejercicio51 E51 = new Ejercicio51();
                     E51.Rep();

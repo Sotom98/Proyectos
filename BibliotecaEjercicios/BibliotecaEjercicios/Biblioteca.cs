@@ -132,6 +132,9 @@ namespace BibliotecaEjercicios {
                     Ejercicio29 ej29 = new Ejercicio29();
                     ej29.Temper();
                     break;
+                case 30:
+                    Ejercicio30 ej30 = new Ejercicio30();
+                    break;
                 default:
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");

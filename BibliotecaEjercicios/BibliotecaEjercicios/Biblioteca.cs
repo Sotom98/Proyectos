@@ -139,6 +139,56 @@ namespace BibliotecaEjercicios {
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");
                     break;
+                case 51:
+                    Ejercicio51 E51 = new Ejercicio51();
+                    E51.Rep();
+                    Console.ReadKey();
+                    break;
+                case 52:
+                    Ejercicio52 E52 = new Ejercicio52();
+                    E52.Deaf();
+                    Console.ReadKey();
+                    break;
+                case 53:
+                    Ejercicio53 E53 = new Ejercicio53();
+                    E53.Fact();
+                    Console.ReadKey();
+                    break;
+                case 54:
+                    Ejercicio54 E54 = new Ejercicio54();
+                    E54.Caja();
+                    Console.ReadKey();
+                    break;
+                case 55:
+                    Ejercicio55 E55 = new Ejercicio55();
+                    E55.Emayor();
+                    Console.ReadKey();
+                    break;
+                case 56:
+                    Ejercicio56 E56 = new Ejercicio56();
+                    E56.OperDW();
+                    Console.ReadKey();
+                    break;
+                case 57:
+                    Ejercicio57 E57 = new Ejercicio57();
+                    E57.for_whil();
+                    Console.ReadKey();
+                    break;
+                case 58:
+                    Ejercicio58 E58 = new Ejercicio58();
+                    E58.Man();
+                    Console.ReadKey();
+                    break;
+                case 59:
+                    Ejercicio59 E59 = new Ejercicio59();
+                    E59.EdadesMatr();
+                    Console.ReadKey();
+                    break;
+                case 60:
+                    Ejercicio60 E60 = new Ejercicio60();
+                    E60.NombMatr();
+                    Console.ReadKey();
+                    break;
             }
 
             Console.WriteLine("----------------------------------------");

@@ -10,3 +10,9 @@ C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\De
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.dll
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.pdb
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\bin\Debug\Ejercicios.dll
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\bin\Debug\Ejercicios.pdb
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csprojAssemblyReference.cache
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.dll
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\Ejercicios\obj\Debug\Ejercicios.pdb

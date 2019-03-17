@@ -18,3 +18,13 @@ C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercic
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csproj.CopyComplete
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.exe
 C:\Users\oscar\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.pdb
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.exe.config
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.exe
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\BibliotecaEjercicios.pdb
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\Ejercicios.dll
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\bin\Debug\Ejercicios.pdb
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csprojAssemblyReference.cache
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.csproj.CopyComplete
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.exe
+C:\Users\Jorge\Documents\GitHub\Proyectos\BibliotecaEjercicios\BibliotecaEjercicios\obj\Debug\BibliotecaEjercicios.pdb

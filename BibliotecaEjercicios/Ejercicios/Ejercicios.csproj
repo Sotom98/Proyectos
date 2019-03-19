@@ -65,7 +65,17 @@
     <Compile Include="Ejercicio29.cs" />
     <Compile Include="Ejercicio3.cs" />
     <Compile Include="Ejercicio30.cs" />
+    <Compile Include="Ejercicio31.cs" />
+    <Compile Include="Ejercicio32.cs" />
+    <Compile Include="Ejercicio33.cs" />
+    <Compile Include="Ejercicio34.cs" />
+    <Compile Include="Ejercicio35.cs" />
+    <Compile Include="Ejercicio36.cs" />
+    <Compile Include="Ejercicio37.cs" />
+    <Compile Include="Ejercicio38.cs" />
+    <Compile Include="Ejercicio39.cs" />
     <Compile Include="Ejercicio4.cs" />
+    <Compile Include="Ejercicio40.cs" />
     <Compile Include="Ejercicio41.cs" />
     <Compile Include="Ejercicio42.cs" />
     <Compile Include="Ejercicio43.cs" />

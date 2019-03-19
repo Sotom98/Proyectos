@@ -134,10 +134,47 @@ namespace BibliotecaEjercicios {
                     break;
                 case 30:
                     Ejercicio30 ej30 = new Ejercicio30();
+                    ej30.Total();
                     break;
-                default:
-                    Console.WriteLine("----------------------------------------");
-                    Console.WriteLine("Valor no correcto, fin programa");
+                case 31:
+                    Ejercicio31 E31 = new Ejercicio31();
+                    E31.Voca();
+                    break;
+                case 32:
+                    Ejercicio32 E32 = new Ejercicio32();
+                    E32.Duca();
+                    break;
+                case 33:
+                    Ejercicio33 E33 = new Ejercicio33();
+                    E33.Numi();
+                    break;
+                case 34:
+                    Ejercicio34 E34 = new Ejercicio34();
+                    E34.Edi_Eda_Edo_Edito();
+                    break;
+                case 35:
+                    Ejercicio35 E35 = new Ejercicio35();
+                    E35.Debi();
+                    break;
+                case 36:
+                    Ejercicio36 E36 = new Ejercicio36();
+                    E36.Cero();
+                    break;
+                case 37:
+                    Ejercicio37 E37 = new Ejercicio37();
+                    E37.Impa();
+                    break;
+                case 38:
+                    Ejercicio38 E38 = new Ejercicio38();
+                    E38.Dab();
+                    break;
+                case 39:
+                    Ejercicio39 E39 = new Ejercicio39();
+                    E39.Esss();
+                    break;
+                case 40:
+                    Ejercicio40 E40 = new Ejercicio40();
+                    E40.Dre();
                     break;
                 case 41:
                     Ejercicio41 ej41 = new Ejercicio41();
@@ -228,6 +265,10 @@ namespace BibliotecaEjercicios {
                     Ejercicio60 E60 = new Ejercicio60();
                     E60.NombMatr();
                     Console.ReadKey();
+                    break;
+                default:
+                    Console.WriteLine("----------------------------------------");
+                    Console.WriteLine("Valor no correcto, fin programa");
                     break;
             }
 

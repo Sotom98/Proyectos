@@ -2,9 +2,8 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio75
     {
-
         private int[,] mat;
 
         public void Cargar()
@@ -30,28 +29,28 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+         public void SumaFila()
         {
-            double sumc = 0;
-            for (int f = 0; f < mat.GetLength(0); f++)
+            double sumf = 0;
+            for(int f=0; f<mat.GetLength(0);f++)
             {
-                for (int c = 0; c < mat.GetLength(1); c++)
+                for (int c=0;c<mat.GetLength(1);c++)
                 {
-                    if (f > sumc)
+                    if (f>sumf)
                     {
-                        sumc += mat[c, c];
+                        sumf += mat[f, f];
                     }
                 }
             }
 
-            Console.WriteLine("La suma es :" + sumc);
+            Console.WriteLine("La suma es :"+sumf);
             Console.Write(" ");
         }
-        public void llamar()
+         public void llamar()
         {
-           
+ 
             Cargar();
-            SumaCol();
+            SumaFila();
             Console.ReadKey();
         }
     }

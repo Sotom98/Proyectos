@@ -2,9 +2,8 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio71
     {
-
         private int[,] mat;
 
         public void Cargar()
@@ -30,28 +29,39 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void Sumar()
         {
-            double sumc = 0;
+            double suma = 0;
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
-                    {
-                        sumc += mat[c, c];
-                    }
+                    suma = suma + mat[f, c];
                 }
             }
+            Console.WriteLine("La suma de la Matriz es: "+suma);
+        }
 
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
+        public void Promedio()
+        {
+            double Prom=0;
+            int suma = 0;
+            for (int f = 0; f < mat.GetLength(0); f++)
+            {
+                for (int c = 0; c < mat.GetLength(1); c++)
+                {
+                    suma = suma + mat[f, c];
+                    Prom = suma / 12;
+                }
+            }
+            Console.WriteLine("El promedio de la Matriz es: " + Prom);
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            Sumar();
+            Promedio();
             Console.ReadKey();
         }
     }

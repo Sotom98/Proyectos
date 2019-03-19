@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio70
     {
 
         private int[,] mat;
@@ -18,9 +22,9 @@ namespace Ejercicios
             int columnas = int.Parse(linea);
             mat = new int[filas, columnas];
 
-            for (int f = 0; f < mat.GetLength(0); f++)
+            for (int f = 0; f < mat.GetLength(0) ; f++)
             {
-                for (int c = 0; c < mat.GetLength(1); c++)
+                for(int c= 0; c< mat.GetLength(1) ; c++)
                 {
                     Console.WriteLine("Ingrese Miembro de la Matriz");
                     linea = Console.ReadLine();
@@ -30,28 +34,35 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+
+        public void Imprimir()
         {
-            double sumc = 0;
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
-                    {
-                        sumc += mat[c, c];
-                    }
+                    Console.Write(mat[f,c]+" ");
                 }
+                Console.WriteLine();
             }
 
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
+        }
+
+        public void ImprimirUltimaFila()
+        {
+            Console.WriteLine("Ultima Fila");
+            for (int c = 0; c < mat.GetLength(1); c++)
+            {
+                Console.Write(mat[mat.GetLength(0)-1,c] + " ");
+            }
+
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            Imprimir();
+            ImprimirUltimaFila();
             Console.ReadKey();
         }
     }

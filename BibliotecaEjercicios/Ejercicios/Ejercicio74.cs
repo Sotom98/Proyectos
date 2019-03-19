@@ -2,9 +2,8 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio74
     {
-
         private int[,] mat;
 
         public void Cargar()
@@ -30,28 +29,31 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void Buscar()
         {
-            double sumc = 0;
+            int filabus = 0;
+            int columbus = 0;
+            int bus;
+           
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
-                    {
-                        sumc += mat[c, c];
-                    }
+                    Console.WriteLine("Ingrese Numero de Busqueda");
+                    bus = int.Parse(Console.ReadLine());
+                    bus = mat[f, c];
+                    filabus = f;
+                    columbus = c;
                 }
             }
-
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
+            Console.WriteLine("Fla en la que se encuentra " + filabus + "y en la columna " + columbus);
         }
+
         public void llamar()
         {
            
             Cargar();
-            SumaCol();
+            Buscar();
             Console.ReadKey();
         }
     }

@@ -2,7 +2,7 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio73
     {
 
         private int[,] mat;
@@ -30,28 +30,39 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void Positivos()
         {
-            double sumc = 0;
+            int pos = mat[0, 0];
+            int neg = mat[0, 0];
+            int cero= mat[0, 0];
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
+                    if (mat[f, c]>0)
                     {
-                        sumc += mat[c, c];
+                        pos = mat[f, c];
+                    }
+                    else if (mat[f, c] < 0)
+                    {
+                        neg = mat[f, c];
+                    }
+
+                    else
+                    {
+                        cero= mat[f, c];
                     }
                 }
+                Console.WriteLine("Numero Positivo" + pos);
+                Console.WriteLine("Numero Negativo" + neg);
+                Console.WriteLine("Numero Ceros" + cero);
             }
-
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            Positivos();
             Console.ReadKey();
         }
     }

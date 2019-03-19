@@ -2,9 +2,8 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio78
     {
-
         private int[,] mat;
 
         public void Cargar()
@@ -30,28 +29,45 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void SumaEncima()
         {
-            double sumc = 0;
+            int suma= 0;
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
+                    if (c>f)
                     {
-                        sumc += mat[c, c];
+                        suma += mat[f, c];
                     }
                 }
             }
+            Console.WriteLine("La suma de la Diagonal Encima :" + suma);
 
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
+        }
+
+        public void SumaDebajo()
+        {
+            int suma = 0;
+            for (int f = 0; f < mat.GetLength(0); f++)
+            {
+                for (int c = 0; c < mat.GetLength(1); c++)
+                {
+                    if (f>c)
+                    {
+                        suma += mat[f, c];
+                    }
+                }
+            }
+            Console.WriteLine("La suma de la Diagonal Debajo :" + suma);
+
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            SumaEncima();
+            SumaDebajo();
             Console.ReadKey();
         }
     }

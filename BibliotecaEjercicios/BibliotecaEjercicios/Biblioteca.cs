@@ -266,6 +266,53 @@ namespace BibliotecaEjercicios {
                     E60.NombMatr();
                     Console.ReadKey();
                     break;
+                case 76:
+                    Ejercicio76 obj = new Ejercicio76();
+                    obj.llamar();
+                    break;
+
+                case 77:
+                    Ejercicio77 obj77 = new Ejercicio77();
+                    obj77.llamar();
+                    break;
+
+                case 78:
+                    Ejercicio78 obj78 = new Ejercicio78();
+                    obj78.llamar();
+                    break;
+
+                case 75:
+                    Ejercicio75 obj75 = new Ejercicio75();
+                    obj75.llamar();
+                    break;
+
+
+                case 72:
+                    Ejercicio72 obj72 = new Ejercicio72();
+                    obj72.llamar();
+                    break;
+
+                case 70:
+                    Ejercicio70 obj70 = new Ejercicio70();
+                    obj70.llamar();
+                    break;
+
+                case 71:
+                    Ejercicio71 obj71 = new Ejercicio71();
+                    obj71.llamar();
+                    break;
+
+                case 73:
+                    Ejercicio73 obj73 = new Ejercicio73();
+                    obj73.llamar();
+                    break;
+
+                case 74:
+                    Ejercicio74 obj74 = new Ejercicio74();
+                    obj74.llamar();
+                    break;
+
+
                 default:
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");

@@ -2,9 +2,8 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio77
     {
-
         private int[,] mat;
 
         public void Cargar()
@@ -30,28 +29,27 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void SumaD()
         {
-            double sumc = 0;
+            int DA = 0;
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
+                    if (f==c)
                     {
-                        sumc += mat[c, c];
+                        DA = DA + mat[f, c];
                     }
                 }
             }
-
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
+            Console.WriteLine("La suma de la Diagonal :"+DA);
+        
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            SumaD();
             Console.ReadKey();
         }
     }

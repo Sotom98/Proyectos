@@ -2,7 +2,7 @@
 
 namespace Ejercicios
 {
-    public class Ejercicio76
+    public class Ejercicio72
     {
 
         private int[,] mat;
@@ -30,28 +30,33 @@ namespace Ejercicios
             }
         }
 
-        public void SumaCol()
+        public void Pos()
         {
-            double sumc = 0;
+            int mayor = mat[0, 0];
+            int filamay = 0;
+            int columnamay = 0;
             for (int f = 0; f < mat.GetLength(0); f++)
             {
                 for (int c = 0; c < mat.GetLength(1); c++)
                 {
-                    if (f > sumc)
+                    if (mat[f, c] > mayor)
                     {
-                        sumc += mat[c, c];
+                        mayor = mat[f, c];
+                        filamay = f;
+                        columnamay = c;
                     }
                 }
             }
+            Console.WriteLine("El elemento mayor es:" + mayor);
+            Console.WriteLine("Se encuentra en la fila:" + filamay + " y en la columna: " + columnamay);
+            Console.ReadLine();
 
-            Console.WriteLine("La suma es :" + sumc);
-            Console.Write(" ");
         }
         public void llamar()
         {
-           
+            
             Cargar();
-            SumaCol();
+            Pos();
             Console.ReadKey();
         }
     }

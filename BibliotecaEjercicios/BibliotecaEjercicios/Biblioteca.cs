@@ -5,17 +5,21 @@ using System.Text;
 using System.Threading.Tasks;
 using Ejercicios;
 
-namespace BibliotecaEjercicios {
-    class Biblioteca {
-        public static void Main(string[] args) {
+namespace BibliotecaEjercicios
+{
+    class Biblioteca
+    {
+        public static void Main(string[] args)
+        {
             int a;
-            
+
             Console.WriteLine("Bienvenido a la biblioteca de ejercicios\nIngrese ejercicio (1 - 78)");
             Console.WriteLine("----------------------------------------");
             Console.Write("Ejercicio: ");
             a = int.Parse(Console.ReadLine());
 
-            switch (a) {
+            switch (a)
+            {
                 case 1:
                     Ejercicio1 ej1 = new Ejercicio1();
                     ej1.Suma();
@@ -219,100 +223,115 @@ namespace BibliotecaEjercicios {
                 case 51:
                     Ejercicio51 E51 = new Ejercicio51();
                     E51.Rep();
-                    Console.ReadKey();
                     break;
                 case 52:
                     Ejercicio52 E52 = new Ejercicio52();
                     E52.Deaf();
-                    Console.ReadKey();
                     break;
                 case 53:
                     Ejercicio53 E53 = new Ejercicio53();
                     E53.Fact();
-                    Console.ReadKey();
                     break;
                 case 54:
                     Ejercicio54 E54 = new Ejercicio54();
                     E54.Caja();
-                    Console.ReadKey();
                     break;
                 case 55:
                     Ejercicio55 E55 = new Ejercicio55();
                     E55.Emayor();
-                    Console.ReadKey();
                     break;
                 case 56:
                     Ejercicio56 E56 = new Ejercicio56();
                     E56.OperDW();
-                    Console.ReadKey();
                     break;
                 case 57:
                     Ejercicio57 E57 = new Ejercicio57();
                     E57.for_whil();
-                    Console.ReadKey();
                     break;
                 case 58:
                     Ejercicio58 E58 = new Ejercicio58();
-                    E58.Man();
-                    Console.ReadKey();
+                    E58.Man();                    
                     break;
                 case 59:
                     Ejercicio59 E59 = new Ejercicio59();
                     E59.EdadesMatr();
-                    Console.ReadKey();
                     break;
                 case 60:
                     Ejercicio60 E60 = new Ejercicio60();
                     E60.NombMatr();
-                    Console.ReadKey();
+                    break;
+                case 61:
+                    Ejercicio61 E61 = new Ejercicio61();
+                    E61.llamar();
+                    break;
+                case 62:
+                    Ejercicio62 E62 = new Ejercicio62();
+                    E62.llamar();
+                    break;
+                case 63:
+                    Ejercicio63 E63 = new Ejercicio63();
+                    E63.mostrar();
+                    break;
+                case 64:
+                    Ejercicio64 E64 = new Ejercicio64();
+                    E64.llamar();
+                    break;
+                case 65:
+                    Ejercicio65 E65 = new Ejercicio65();
+                    E65.llamar();
+                    break;
+                case 66:
+                    Ejercicio66 E66 = new Ejercicio66();
+                    E66.llamar();
+                    break;
+                case 67:
+                    Ejercicio67 E67 = new Ejercicio67();
+                    E67.llamar();
+                    break;
+                case 68:
+                    Ejercicio68 E68 = new Ejercicio68();
+                    E68.llamar();
+                    break;
+                case 69:
+                    Ejercicio69 E69 = new Ejercicio69();
+                    E69.llamar();
+                    break;
+                case 70:
+                    Ejercicio70 obj70 = new Ejercicio70();
+                    obj70.llamar();
+                    break;
+                case 71:
+                    Ejercicio71 obj71 = new Ejercicio71();
+                    obj71.llamar();
+                    break;
+                case 72:
+                    Ejercicio72 obj72 = new Ejercicio72();
+                    obj72.llamar();
+                    break;
+                case 73:
+                    Ejercicio73 obj73 = new Ejercicio73();
+                    obj73.llamar();
+                    break;
+                case 74:
+                    Ejercicio74 obj74 = new Ejercicio74();
+                    obj74.llamar();
+                    break;
+                case 75:
+                    Ejercicio75 obj75 = new Ejercicio75();
+                    obj75.llamar();
                     break;
                 case 76:
                     Ejercicio76 obj = new Ejercicio76();
                     obj.llamar();
                     break;
-
                 case 77:
                     Ejercicio77 obj77 = new Ejercicio77();
                     obj77.llamar();
                     break;
-
                 case 78:
                     Ejercicio78 obj78 = new Ejercicio78();
                     obj78.llamar();
                     break;
-
-                case 75:
-                    Ejercicio75 obj75 = new Ejercicio75();
-                    obj75.llamar();
-                    break;
-
-
-                case 72:
-                    Ejercicio72 obj72 = new Ejercicio72();
-                    obj72.llamar();
-                    break;
-
-                case 70:
-                    Ejercicio70 obj70 = new Ejercicio70();
-                    obj70.llamar();
-                    break;
-
-                case 71:
-                    Ejercicio71 obj71 = new Ejercicio71();
-                    obj71.llamar();
-                    break;
-
-                case 73:
-                    Ejercicio73 obj73 = new Ejercicio73();
-                    obj73.llamar();
-                    break;
-
-                case 74:
-                    Ejercicio74 obj74 = new Ejercicio74();
-                    obj74.llamar();
-                    break;
-
-
                 default:
                     Console.WriteLine("----------------------------------------");
                     Console.WriteLine("Valor no correcto, fin programa");

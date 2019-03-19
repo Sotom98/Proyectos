@@ -79,7 +79,7 @@
     <Compile Include="Ejercicio41.cs" />
     <Compile Include="Ejercicio42.cs" />
     <Compile Include="Ejercicio43.cs" />
-    <Compile Include="ejercicio44.cs" />
+    <Compile Include="Ejercicio44.cs" />
     <Compile Include="Ejercicio45.cs" />
     <Compile Include="Ejercicio46.cs" />
     <Compile Include="Ejercicio47.cs" />
